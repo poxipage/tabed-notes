@@ -26,7 +26,7 @@
       {/if}
     {/each}
   </div>
-  <a on:click={createTab} class="h-6 cursor-pointer text-xl text-center rounded-full w-6 m-1 leading-5 border-black border-2 opacity-50 hover:opacity-100"> {"+"}</a> 
+  <button on:click={createTab} class="h-6 cursor-pointer text-xl btn-primary border-primary-content text-center rounded-full w-6 m-1 leading-5 border-2 opacity-50 hover:opacity-100"> {"+"}</button> 
 </div>
 <Note note={notes.getById($selected)} />
 
